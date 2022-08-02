@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "typescript": "^4.7.4"
   },
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "tsc -v"
+    "start": "tsc -w"
   },
   "keywords": [],
   "author": "",
